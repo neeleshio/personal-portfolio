@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Neelesh Shetty - Projects</title>
+
+        <!-- Meta -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Neelesh Shetty - Portfolio" />
+        <meta name="author" content="Neelesh Shetty" />
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+            rel="stylesheet" />
+
+        <!-- FontAwesome JS -->
+        <script defer src="assets/fontawesome/js/all.js"></script>
+
+        <!-- Theme CSS -->
+        <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css" />
+    </head>
+
+    <body>
+        <header class="header text-center">
+            <div class="force-overflow">
+                <h1 class="blog-name pt-lg-4 mb-0">
+                    <a class="no-text-decoration" href="index.html">Neelesh Shetty</a>
+                </h1>
+
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navigation"
+                        aria-controls="navigation"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div id="navigation" class="collapse navbar-collapse flex-column">
+                        <div class="profile-section pt-3 pt-lg-0">
+                            <img
+                                class="profile-image mb-3 rounded-circle mx-auto"
+                                src="assets/images/profile.jpg"
+                                alt="image" />
+
+                            <div class="bio mb-3">
+                                Hi, my name is Neelesh and I'm a Frontend development Engineer.
+                                Welcome to my personal website!
+                            </div>
+                            <!--//bio-->
+                            <ul class="social-list list-inline py-2 mx-auto">
+                                <li class="list-inline-item">
+                                    <a href="https://linkedin.com/in/neeleshio" target="_blank"
+                                        ><i class="fab fa-linkedin-in fa-fw"></i
+                                    ></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://github.com/neeleshio" target="_blank"
+                                        ><i class="fab fa-github-alt fa-fw"></i
+                                    ></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="mailto:neeleshiodev@gmail.com" target="_blank"
+                                        ><i class="far fa-envelope fa-sm"></i
+                                    ></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="tel:8197305620" target="_blank"
+                                        ><i class="fas fa-phone fa-xs"></i
+                                    ></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://wa.me/918197305620" target="_blank"
+                                        ><i class="fab fa-whatsapp fa-sm"></i
+                                    ></a>
+                                </li>
+                            </ul>
+                            <!--//social-list-->
+                            <hr />
+                        </div>
+                        <!--//profile-section-->
+
+                        <ul class="navbar-nav flex-column text-start">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html"
+                                    ><i class="fas fa-user fa-fw me-2"></i>About Me<span
+                                        class="sr-only"
+                                        >(current)</span
+                                    ></a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="portfolio.html"
+                                    ><i class="fas fa-laptop-code fa-fw me-2"></i>Portfolio<span
+                                        class="sr-only"
+                                        >(current)</span
+                                    ></a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="resume.html"
+                                    ><i class="fas fa-file-alt fa-fw me-2"></i>Resume</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog-home.html"
+                                    ><i class="fas fa-blog fa-fw me-2"></i>Blog</a
+                                >
+                            </li>
+                        </ul>
+
+                        <!-- <div class="my-2">
+                            <a class="btn btn-primary" href="contact.html"
+                                ><i class="fas fa-paper-plane me-2"></i>Contact</a
+                            >
+                        </div> -->
+
+                        <div class="dark-mode-toggle text-center w-100">
+                            <hr class="mb-4" />
+                            <h4 class="toggle-name mb-3">
+                                <i class="fas fa-adjust me-1"></i>Dark Mode
+                            </h4>
+
+                            <input class="toggle" id="darkmode" type="checkbox" />
+                            <label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+                        </div>
+                        <!--//dark-mode-toggle-->
+                    </div>
+                </nav>
+            </div>
+            <!--//force-overflow-->
+        </header>
+
+        <div class="main-wrapper">
+            <section class="cta-section theme-bg-light py-5">
+                <div class="container text-center single-col-max-width">
+                    <h2 class="heading">Portfolio</h2>
+                    <div class="intro">
+                        <p>Welcome to my online portfolio</p>
+                    </div>
+                    <!-- <a class="btn btn-primary" href="contact.html" target="_blank"
+                        ><i class="fas fa-paper-plane me-2"></i>Contact</a
+                    > -->
+                </div>
+                <!--//container-->
+            </section>
+            <section class="projects-list px-3 py-5 p-md-5">
+                <div class="container">
+                    <!-- <div class="text-center">
+                        <ul id="filters" class="filters mb-5 mx-auto ps-0">
+                            <li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
+                            <li class="type mb-3 mb-lg-0" data-filter=".frontend">Frontend</li>
+                            <li class="type mb-3 mb-lg-0" data-filter=".backend">Backend</li>
+                        </ul>
+                        //filters
+                    </div> -->
+
+                    <div class="project-cards row isotope">
+                        <div class="isotope-item col-md-6 mb-5 mobileapp frontend">
+                            <div class="card project-card">
+                                <div class="row">
+                                    <div class="col-12 col-xl-5 card-img-holder">
+                                        <img
+                                            src="assets/images/project/project-1.svg"
+                                            class="card-img"
+                                            alt="image" />
+                                    </div>
+                                    <div class="col-12 col-xl-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <a
+                                                    href="https://jsgpt.vercel.app/"
+                                                    target="_blank"
+                                                    class="theme-link"
+                                                    >JsGPT - ChatGPT for JavaScript</a
+                                                >
+                                            </h5>
+                                            <p class="card-text">
+                                                AI powered Q&A knowledgeBot webapp built with Python
+                                                (Flask), GPT Index & ReactJs where we can ask
+                                                Javascript queries.
+                                            </p>
+                                            <!-- <p class="card-text">
+                                                <small class="text-muted">Client: Google</small>
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="link-mask">
+                                    <a
+                                        class="link-mask-link"
+                                        href="https://jsgpt.vercel.app/"
+                                        target="_blank"></a>
+                                    <div class="link-mask-text">
+                                        <a
+                                            class="btn btn-secondary"
+                                            href="https://jsgpt.vercel.app/"
+                                            target="_blank">
+                                            <i class="fas fa-eye me-2"></i>View
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--//link-mask-->
+                            </div>
+                            <!--//card-->
+                        </div>
+                        <!--//col-->
+                        <div class="isotope-item col-md-6 mb-5 webapp frontend">
+                            <div class="card project-card">
+                                <div class="row">
+                                    <div class="col-12 col-xl-5 card-img-holder">
+                                        <img
+                                            src="assets/images/project/project-2.svg"
+                                            class="card-img"
+                                            alt="image" />
+                                    </div>
+                                    <div class="col-12 col-xl-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <a
+                                                    href="https://standup-now.vercel.app/"
+                                                    target="_blank"
+                                                    class="theme-link"
+                                                    >Stand Up Now</a
+                                                >
+                                            </h5>
+                                            <p class="card-text">
+                                                A break remainder progressive webapp (PWA) which
+                                                reminds you to stand up & take a break from your
+                                                desk, built with NextJs & Styled components.
+                                            </p>
+                                            <!-- <p class="card-text">
+                                                <small class="text-muted">Client: Dropbox</small>
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="link-mask">
+                                    <a
+                                        class="link-mask-link"
+                                        href="https://standup-now.vercel.app/"
+                                        target="_blank"></a>
+                                    <div class="link-mask-text">
+                                        <a
+                                            class="btn btn-secondary"
+                                            href="https://standup-now.vercel.app/"
+                                            target="_blank">
+                                            <i class="fas fa-eye me-2"></i>View
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--//link-mask-->
+                            </div>
+                            <!--//card-->
+                        </div>
+                        <!--//col-->
+                        <div class="isotope-item col-md-6 mb-5 mobileapp">
+                            <div class="card project-card">
+                                <div class="row">
+                                    <div class="col-12 col-xl-5 card-img-holder">
+                                        <img
+                                            src="assets/images/project/project-3.png"
+                                            class="card-img"
+                                            alt="image" />
+                                    </div>
+                                    <div class="col-12 col-xl-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <a
+                                                    href="https://neeleshio.github.io/debounce-throttle-visualizer/"
+                                                    target="_blank"
+                                                    class="theme-link"
+                                                    >Debounce & Throttling Visualizer</a
+                                                >
+                                            </h5>
+                                            <p class="card-text">
+                                                Practical application of debounce & throttling using
+                                                a search bar. Built with HTML, CSS, Vanilla
+                                                Javascript.
+                                            </p>
+                                            <!-- <p class="card-text">
+                                                <small class="text-muted">Client: Google</small>
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="link-mask">
+                                    <a
+                                        class="link-mask-link"
+                                        href="https://neeleshio.github.io/debounce-throttle-visualizer/"
+                                        target="_blank"></a>
+                                    <div class="link-mask-text">
+                                        <a
+                                            class="btn btn-secondary"
+                                            href="https://neeleshio.github.io/debounce-throttle-visualizer/"
+                                            target="_blank">
+                                            <i class="fas fa-eye me-2"></i>View
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--//link-mask-->
+                            </div>
+                            <!--//card-->
+                        </div>
+                        <!--//col-->
+                        <div class="isotope-item col-md-6 mb-5 webapp backend">
+                            <div class="card project-card">
+                                <div class="row">
+                                    <div class="col-12 col-xl-5 card-img-holder">
+                                        <img
+                                            src="assets/images/project/project-4.png"
+                                            class="card-img"
+                                            alt="image" />
+                                    </div>
+                                    <div class="col-12 col-xl-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <a
+                                                    href="https://devtools-webapp.vercel.app/"
+                                                    target="_blank"
+                                                    class="theme-link"
+                                                    >Devtools Clone</a
+                                                >
+                                            </h5>
+                                            <p class="card-text">
+                                                Chrome devtools clone webapp with console built with
+                                                Nextjs & Styled-components
+                                            </p>
+                                            <!-- <p class="card-text">
+                                                <small class="text-muted"
+                                                    >Client: Startup Hub</small
+                                                >
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="link-mask">
+                                    <a
+                                        class="link-mask-link"
+                                        href="https://devtools-webapp.vercel.app/"
+                                        target="_blank"></a>
+                                    <div class="link-mask-text">
+                                        <a
+                                            class="btn btn-secondary"
+                                            href="https://devtools-webapp.vercel.app/"
+                                            target="_blank">
+                                            <i class="fas fa-eye me-2"></i>View
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--//link-mask-->
+                            </div>
+                            <!--//card-->
+                        </div>
+                        <!--//col-->
+                        <div class="isotope-item col-md-6 mb-5 mobileapp frontend">
+                            <div class="card project-card">
+                                <div class="row">
+                                    <div class="col-12 col-xl-5 card-img-holder">
+                                        <img
+                                            src="assets/images/project/project-5.png"
+                                            class="card-img"
+                                            alt="image" />
+                                    </div>
+                                    <div class="col-12 col-xl-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <a
+                                                    href="https://neeleshio.vercel.app/"
+                                                    target="_blank"
+                                                    class="theme-link"
+                                                    >Myfolio-Webapp</a
+                                                >
+                                            </h5>
+                                            <p class="card-text">
+                                                Built this just to better understand typescript,
+                                                sass, responsive design & Express.js
+                                            </p>
+                                            <!-- <p class="card-text">
+                                                <small class="text-muted">Client: SalesForce</small>
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="link-mask">
+                                    <a
+                                        class="link-mask-link"
+                                        href="https://neeleshio.vercel.app/"
+                                        target="_blank"></a>
+                                    <div class="link-mask-text">
+                                        <a
+                                            class="btn btn-secondary"
+                                            href="https://neeleshio.vercel.app/"
+                                            target="_blank">
+                                            <i class="fas fa-eye me-2"></i>View
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--//link-mask-->
+                            </div>
+                            <!--//card-->
+                        </div>
+                        <!--//col-->
+                        <div class="isotope-item col-md-6 mb-5 webapp backend">
+                            <div class="card project-card">
+                                <div class="row">
+                                    <div class="col-12 col-xl-5 card-img-holder">
+                                        <img
+                                            src="assets/images/project/project-6.png"
+                                            class="card-img"
+                                            alt="image" />
+                                    </div>
+                                    <div class="col-12 col-xl-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <a
+                                                    href="https://photography-store.vercel.app/"
+                                                    target="_blank"
+                                                    class="theme-link"
+                                                    >Photography Store</a
+                                                >
+                                            </h5>
+                                            <p class="card-text">
+                                                Responsive photography store admin-dashboard built
+                                                with Reactjs & SCSS.
+                                            </p>
+                                            <!-- <p class="card-text">
+                                                <small class="text-muted">Client: Uber</small>
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="link-mask">
+                                    <a
+                                        class="link-mask-link"
+                                        href="https://photography-store.vercel.app/"
+                                        target="_blank"></a>
+                                    <div class="link-mask-text">
+                                        <a
+                                            class="btn btn-secondary"
+                                            href="https://photography-store.vercel.app/"
+                                            target="_blank">
+                                            <i class="fas fa-eye me-2"></i>View
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--//link-mask-->
+                            </div>
+                            <!--//card-->
+                        </div>
+                        <!--//col-->
+                        <div class="isotope-item col-md-6 mb-5 webapp frontend backend">
+                            <div class="card project-card">
+                                <div class="row">
+                                    <div class="col-12 col-xl-5 card-img-holder">
+                                        <img
+                                            src="https://pbs.twimg.com/profile_images/1176109846237630464/kmg2lI-1_400x400.jpg"
+                                            class="card-img"
+                                            alt="image" />
+                                    </div>
+                                    <div class="col-12 col-xl-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <a
+                                                    href="https://github.com/neeleshio/mail-box"
+                                                    target="_blank"
+                                                    class="theme-link"
+                                                    >Mail Box</a
+                                                >
+                                            </h5>
+                                            <p class="card-text">
+                                                Email service web app built with ReactJs & NodeJs.
+                                                You can send new email, check inbox, spam & other
+                                                folders.
+                                            </p>
+                                            <!-- <p class="card-text">
+                                                <small class="text-muted">Client: Lyft</small>
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="link-mask">
+                                    <a
+                                        class="link-mask-link"
+                                        href="https://github.com/neeleshio/mail-box"
+                                        target="_blank"></a>
+                                    <div class="link-mask-text">
+                                        <a
+                                            class="btn btn-secondary"
+                                            href="https://github.com/neeleshio/mail-box"
+                                            target="_blank">
+                                            <i class="fas fa-eye me-2"></i>View
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--//link-mask-->
+                            </div>
+                            <!--//card-->
+                        </div>
+                        <!--//col-->
+                        <div class="isotope-item col-md-6 mb-5 webapp frontend">
+                            <div class="card project-card">
+                                <div class="row">
+                                    <div class="col-12 col-xl-5 card-img-holder">
+                                        <img
+                                            src="https://cdn-icons-png.flaticon.com/512/603/603197.png"
+                                            class="card-img"
+                                            alt="image" />
+                                    </div>
+                                    <div class="col-12 col-xl-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <a
+                                                    href="https://github.com/neeleshio/myfolio-apis"
+                                                    target="_blank"
+                                                    class="theme-link"
+                                                    >Myfolio APIs</a
+                                                >
+                                            </h5>
+                                            <p class="card-text">
+                                                Myfolio APIs built with ExpressJs & deployed to AWS
+                                                Serverless lambda functions.
+                                            </p>
+                                            <!-- <p class="card-text">
+                                                <small class="text-muted">Client: GitLab</small>
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="link-mask">
+                                    <a
+                                        class="link-mask-link"
+                                        href="https://github.com/neeleshio/myfolio-apis"
+                                        target="_blank"></a>
+                                    <div class="link-mask-text">
+                                        <a
+                                            class="btn btn-secondary"
+                                            href="https://github.com/neeleshio/myfolio-apis"
+                                            target="_blank">
+                                            <i class="fas fa-eye me-2"></i>View
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--//link-mask-->
+                            </div>
+                            <!--//card-->
+                        </div>
+                        <!--//col-->
+                    </div>
+                    <!--//row-->
+                </div>
+
+                <div class="text-center py-3">
+                    <a
+                        href="https://github.com/neeleshio?tab=repositories"
+                        target="_blank"
+                        class="btn btn-primary"
+                        ><i class="fas fa-arrow-alt-circle-right me-2"></i>More</a
+                    >
+                </div>
+            </section>
+
+            <footer class="footer text-center py-4">
+                <small class="copyright">Copyright &copy; <a>Neelesh Shetty</a></small>
+            </footer>
+        </div>
+        <!--//main-wrapper-->
+
+        <!-- Javascript -->
+        <script src="assets/plugins/popper.min.js"></script>
+        <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+        <!--Page Specific JS -->
+        <script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script>
+
+        <script type="text/javascript" src="assets/js/isotope-custom.js"></script>
+
+        <!-- Dark Mode -->
+        <script src="assets/plugins/js-cookie.min.js"></script>
+        <script src="assets/js/dark-mode.js"></script>
+    </body>
+</html>
